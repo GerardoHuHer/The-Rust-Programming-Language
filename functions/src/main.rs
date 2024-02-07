@@ -2,7 +2,7 @@
 // Expressions evaluate to a resultant value.
 
 fn main() {
-    let y = 6;
+    let y = 6; // This is a statement
     main1();
 }
 
