@@ -1,1 +1,1 @@
-D:\The-Rust-Programming-Language\functions\target\debug\functions.exe: D:\The-Rust-Programming-Language\functions\src\main.rs
+/home/gerardohuerta1502/Escritorio/TheRustProgrammingLanguage/functions/target/debug/functions: /home/gerardohuerta1502/Escritorio/TheRustProgrammingLanguage/functions/src/main.rs
