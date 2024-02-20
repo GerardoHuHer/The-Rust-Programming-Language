@@ -1,7 +1,8 @@
 fn main() {
     // counter();
     println!("-------------------------------");
-    exe2();
+    // exe2();
+    f2();
 }
 
 fn counter(){
@@ -33,4 +34,13 @@ fn exe2(){
         count += 1;
     }
     println!("End count = {count}")
+}
+
+fn f2(){
+    let mut number = 3;
+    while number != 0{
+        println!("{number}!");
+        number -= 1;
+    }
+    println!("LIFTOFF!!!");
 }
