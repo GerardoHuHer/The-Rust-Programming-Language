@@ -2,8 +2,12 @@ fn main() {
     // counter();
     println!("-------------------------------");
     // exe2();
-    f2();
+    // f2();
+    // whileindex();
+    // forfn();
+    countdown();
 }
+
 
 fn counter(){
     let mut counter = 0;
@@ -43,4 +47,32 @@ fn f2(){
         number -= 1;
     }
     println!("LIFTOFF!!!");
+}
+
+fn whileindex(){
+    let a = [10, 20, 30, 40, 50];
+    let mut index = 0;
+    while index < 5{
+        println!("The value is: {}", a[index]);
+        index += 1;
+    }
+}
+
+fn forfn(){
+    let a = [10, 20, 30, 40, 50];
+    for element in a{
+        println!("The value o element is: {}", element)
+    }
+}
+
+fn countdown(){
+    // rev() method allow us to reverse the range
+    for number in (1..4).rev(){
+        println!("{number}!");
+    }
+    println!("LIFTOFF!");
+}
+
+fn farenheitToCelcius(){
+    
 }
