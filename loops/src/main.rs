@@ -8,29 +8,28 @@ fn main() {
     countdown();
 }
 
-
-fn counter(){
+fn counter() {
     let mut counter = 0;
-    let result = loop{
+    let result = loop {
         counter += 1;
-        if counter == 10{
-            break counter*2;
+        if counter == 10 {
+            break counter * 2;
         }
     };
-    println!("The result is: {result}");    
+    println!("The result is: {result}");
 }
 
-fn exe2(){
+fn exe2() {
     let mut count = 0;
-    'counting_up: loop{
+    'counting_up: loop {
         println!("count = {count}");
         let mut remaining = 10;
-        loop{
+        loop {
             println!("remaining = {remaining}");
-            if remaining == 9{
+            if remaining == 9 {
                 break;
             }
-            if count == 2{
+            if count == 2 {
                 break 'counting_up;
             }
             remaining -= 1;
@@ -40,39 +39,35 @@ fn exe2(){
     println!("End count = {count}")
 }
 
-fn f2(){
+fn f2() {
     let mut number = 3;
-    while number != 0{
+    while number != 0 {
         println!("{number}!");
         number -= 1;
     }
     println!("LIFTOFF!!!");
 }
 
-fn whileindex(){
+fn whileindex() {
     let a = [10, 20, 30, 40, 50];
     let mut index = 0;
-    while index < 5{
+    while index < 5 {
         println!("The value is: {}", a[index]);
         index += 1;
     }
 }
 
-fn forfn(){
+fn forfn() {
     let a = [10, 20, 30, 40, 50];
-    for element in a{
+    for element in a {
         println!("The value o element is: {}", element)
     }
 }
 
-fn countdown(){
+fn countdown() {
     // rev() method allow us to reverse the range
-    for number in (1..4).rev(){
+    for number in (1..4).rev() {
         println!("{number}!");
     }
     println!("LIFTOFF!");
-}
-
-fn farenheitToCelcius(){
-    
 }
