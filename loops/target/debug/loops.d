@@ -1,1 +1,1 @@
-D:\The-Rust-Programming-Language\loops\target\debug\loops.exe: D:\The-Rust-Programming-Language\loops\src\main.rs
+/home/gerardohuerta1502/Escritorio/TheRustProgrammingLanguage/loops/target/debug/loops: /home/gerardohuerta1502/Escritorio/TheRustProgrammingLanguage/loops/src/main.rs
