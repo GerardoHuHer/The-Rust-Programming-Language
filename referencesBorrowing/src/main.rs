@@ -15,3 +15,11 @@ fn calculate_length(s: &String) -> usize {
 fn change(some_string: &mut String) {
     some_string.push_str(", world!");
 }
+
+fn data_race() {
+    let mut s = String::from("Hello");
+    {
+        let r1 = &mut s;
+    }
+    let r2 = &mut s;
+}
