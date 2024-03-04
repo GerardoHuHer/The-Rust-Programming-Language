@@ -48,6 +48,7 @@
 // }
 
 fn main() {
+<<<<<<< HEAD
     let s1 = String::from("Hello");
     let (s2, len) = calculate_length(s1);
     println!("The length of '{}' is {}", s2, len);
@@ -56,4 +57,22 @@ fn main() {
 fn calculate_length(s: String) -> (String, usize) {
     let length = s.len();
     (s, length)
+=======
+    // let s = "hello"; // This is inmutable
+    // let mut w = String::from("Hello");
+    // w.push_str(", world!"); // push_str() appends a literal to a String
+    // println!("{}", w);
+    // let s1 = String::from("Hello");
+    // let s2 = s1;
+    let s1 = String::from("Hello");
+    let s2 = s1.clone();
+    println!("s1 = {}, s2 = {}", s1, s2);
+    function();
+}
+
+fn function() {
+    let x = 5;
+    let y = x;
+    println!("x = {}, y = {}", x, y);
+>>>>>>> df5d1d6e79daf3538099cbbfe4187b40bcc00642
 }
