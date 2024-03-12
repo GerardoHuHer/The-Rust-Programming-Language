@@ -3,6 +3,11 @@ struct Rectangle {
     width: u32,
     height: u32,
 }
+impl Rectangle {
+    fn area(&self) -> u32 {
+        self.width * self.height
+    }
+}
 
 fn main() {
     let width1 = 30;
@@ -31,6 +36,8 @@ fn main() {
         height: 50,
     };
     dbg!(&rect3);
+    // Another way to print the area is using recangle's method
+    println!("The area is")
 }
 
 fn area(width: u32, height: u32) -> u32 {
