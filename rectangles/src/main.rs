@@ -7,6 +7,9 @@ impl Rectangle {
     fn area(&self) -> u32 {
         self.width * self.height
     }
+    fn width(&self) -> bool {
+        self.width > 0
+    }
 }
 
 fn main() {
@@ -37,7 +40,8 @@ fn main() {
     };
     dbg!(&rect3);
     // Another way to print the area is using recangle's method
-    println!("The area is")
+    println!("The area of rect3 is: {}", rect3.area());
+    println!("The rectangle has a nonzero width; it is {}", rect3.width())
 }
 
 fn area(width: u32, height: u32) -> u32 {
