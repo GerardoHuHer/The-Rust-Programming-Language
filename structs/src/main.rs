@@ -8,7 +8,7 @@ fn main() {
     user1.username = String::from("0218201@up.edu.mx");
     let user2 = build_user(String::from("1234@fjasf.com"), String::from("dmi"));
     let user3 = User {
-        active: user1.active,
+        active: userk.active,
         username: user1.username,
         email: String::from("ukfñja"),
         sign_in_count: user1.sign_in_count,
