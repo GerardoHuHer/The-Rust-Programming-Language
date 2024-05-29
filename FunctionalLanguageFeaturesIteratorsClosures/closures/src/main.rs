@@ -73,4 +73,6 @@ fn main() {
     std::thread::spawn(move || println!("From thread: {:?}", list))
         .join()
         .unwrap();
+    let funct = |x: i32| println!("{x}");
+    funct(5);
 }
